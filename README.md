@@ -7,8 +7,12 @@
 
 - [`main.py`](./main.py) - runs all files in order
 
-sensitivity plots -> `pipeline_outputs/sensitivity/plots/`
-base > best config --> simulation + performance plots for base -> `pipeline_outputs/cases/`, summary -> `pipeline_outputs/best_config/best_config_summary.yaml`
+- [Sensitivity results and plots](./pipeline_outputs/sensitivity/plots/)
+- [Case simulation and performance plots](./pipeline_outputs/cases/)
+- [Best-configuration outputs](./pipeline_outputs/best_config/)
+- [Best-configuration summary](./pipeline_outputs/best_config/best_config_summary.yaml)
+- [SNN sensitivity results](./pipeline_outputs/sensitivity/snn_sensitivity.yaml)
+- [SAC sensitivity results](./pipeline_outputs/sensitivity/sac_sensitivity.yaml)
 
 *Bug fix:*
 `compute_reward(predicted_state, true_state, ..)`
