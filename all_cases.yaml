@@ -1,0 +1,422 @@
+train:
+  case_001:
+    lat: -9.934688377658938
+    lon: 44.23138689739941
+    area_km2: 27526.331341064128
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2020-03-01'
+  case_002:
+    lat: -6.082013756064006
+    lon: 120.32887483784303
+    area_km2: 60958.6007448926
+    anomaly: false
+    region: maritime_continent
+    date: '2024-09-05'
+  case_003:
+    lat: -8.989045999319409
+    lon: 126.29068125516382
+    area_km2: 81723.46524656206
+    anomaly: false
+    region: maritime_continent
+    date: '2022-11-05'
+  case_004:
+    lat: -5.547284310600453
+    lon: 120.28776318473274
+    area_km2: 18183.820344803982
+    anomaly: false
+    region: maritime_continent
+    date: '2019-02-28'
+  case_005:
+    lat: -10.263688550217964
+    lon: 45.73996587099389
+    area_km2: 42701.7067038676
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2018-12-25'
+  case_006:
+    lat: -1.0243835891910305
+    lon: 57.96093910104895
+    area_km2: 61826.972314514445
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2023-09-02'
+  case_007:
+    lat: -6.398162894928735
+    lon: 123.08048788084787
+    area_km2: 68790.04195970895
+    anomaly: false
+    region: maritime_continent
+    date: '2023-11-27'
+  case_008:
+    lat: 2.659212384368873
+    lon: 48.34338625782538
+    area_km2: 72357.7177642626
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2021-09-04'
+  case_009:
+    lat: 13.28513141486249
+    lon: 49.009132753926984
+    area_km2: 89031.66755913828
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2023-09-08'
+  case_010:
+    lat: -2.2143081368145356
+    lon: 49.48266600739426
+    area_km2: 59734.27799731991
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2022-12-20'
+  case_011:
+    lat: -6.50725142125583
+    lon: 111.59629152806531
+    area_km2: 23295.391158187937
+    anomaly: false
+    region: maritime_continent
+    date: '2021-08-04'
+  case_012:
+    lat: -5.494063076757184
+    lon: 111.1127926612987
+    area_km2: 24507.4172170505
+    anomaly: false
+    region: maritime_continent
+    date: '2024-10-25'
+  case_013:
+    lat: 0.7088235328814605
+    lon: 55.14853978402212
+    area_km2: 15665.237089312777
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2023-12-01'
+  case_014:
+    lat: -5.838660842759362
+    lon: 45.270542638667706
+    area_km2: 40901.770102286675
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2020-07-22'
+  case_015:
+    lat: 5.35681194003244
+    lon: 56.98016374295014
+    area_km2: 11220.40649734528
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2025-08-04'
+  case_016:
+    lat: 1.9972911558788233
+    lon: 49.95320074788706
+    area_km2: 95493.10649880568
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2025-08-12'
+  case_017:
+    lat: -7.159819442763616
+    lon: 124.39684806085754
+    area_km2: 94932.65973757321
+    anomaly: false
+    region: maritime_continent
+    date: '2023-04-25'
+  case_018:
+    lat: -8.54026946687638
+    lon: 123.85128722444988
+    area_km2: 93256.92389637779
+    anomaly: false
+    region: maritime_continent
+    date: '2024-02-14'
+  case_019:
+    lat: -5.10948474470818
+    lon: 126.9087755586899
+    area_km2: 15514.828214075418
+    anomaly: false
+    region: maritime_continent
+    date: '2025-11-13'
+  case_020:
+    lat: -8.070508321442784
+    lon: 125.23573099564786
+    area_km2: 48388.801437927345
+    anomaly: false
+    region: maritime_continent
+    date: '2019-11-30'
+  case_021:
+    lat: 0.5115735533378185
+    lon: 57.034242423736174
+    area_km2: 54239.23995650205
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2025-06-17'
+  case_022:
+    lat: 2.3317268048140285
+    lon: 57.00745909115808
+    area_km2: 75976.63698387549
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2024-01-06'
+  case_023:
+    lat: -9.266059772055364
+    lon: 48.82033970325775
+    area_km2: 84250.74000152903
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2020-07-10'
+  case_024:
+    lat: -7.964541627316271
+    lon: 114.59183856779255
+    area_km2: 56551.51034117436
+    anomaly: false
+    region: maritime_continent
+    date: '2021-12-20'
+  case_025:
+    lat: 3.5723747521608313
+    lon: 48.03789700203695
+    area_km2: 81113.79450934319
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2023-01-27'
+  case_026:
+    lat: 5.289168022913589
+    lon: 57.42708699776419
+    area_km2: 81948.50636886286
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2023-06-07'
+  case_027:
+    lat: 11.055571415151562
+    lon: 46.03662953461144
+    area_km2: 59696.97701010695
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2021-07-15'
+  case_028:
+    lat: -9.880260897226691
+    lon: 55.51788792254103
+    area_km2: 91063.42694498297
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2024-07-06'
+  case_029:
+    lat: 7.268953837154445
+    lon: 57.21321997718927
+    area_km2: 27929.523036006052
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2024-06-25'
+  case_030:
+    lat: -7.476917966756442
+    lon: 118.16570716239295
+    area_km2: 6651.817046333593
+    anomaly: false
+    region: maritime_continent
+    date: '2019-10-27'
+  case_031:
+    lat: -6.957173977825419
+    lon: 116.54161888828418
+    area_km2: 88219.73689421572
+    anomaly: false
+    region: maritime_continent
+    date: '2020-10-31'
+  case_032:
+    lat: -8.26915048429375
+    lon: 126.72186430477733
+    area_km2: 32107.396877744246
+    anomaly: false
+    region: maritime_continent
+    date: '2020-11-03'
+  case_033:
+    lat: 13.068579007574886
+    lon: 54.47547904622456
+    area_km2: 95872.55295396173
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2024-09-02'
+  case_034:
+    lat: 12.666649921617424
+    lon: 51.85961074570312
+    area_km2: 40009.059355658945
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2023-12-25'
+  case_035:
+    lat: 2.676578464064754
+    lon: 51.32808618352888
+    area_km2: 20017.379959411264
+    anomaly: false
+    region: nw_indian_ocean
+    date: '2021-02-03'
+  case_036:
+    lat: -2.2254614412537137
+    lon: 123.43359159317926
+    area_km2: 17999.70649551308
+    anomaly: true
+    based_on: 2014 Banda
+  case_037:
+    lat: 1.3284003907071154
+    lon: 44.377372990729825
+    area_km2: 34065.855547963976
+    anomaly: true
+    based_on: 2018 Somalia Phase 1
+  case_038:
+    lat: 5.526607320556921
+    lon: 55.37055025014781
+    area_km2: 7344.681472034636
+    anomaly: true
+    based_on: 2021 Socotra
+  case_039:
+    lat: 14.83380202050007
+    lon: 60.47573160184531
+    area_km2: 10435.95243578991
+    anomaly: true
+    based_on: 2013 Socotra
+  case_040:
+    lat: 7.491943760670595
+    lon: 52.76441805429344
+    area_km2: 11162.06614797569
+    anomaly: true
+    based_on: 2018 Somalia Phase 2
+  case_041:
+    lat: -0.5780424785846918
+    lon: 49.21312576608392
+    area_km2: 18367.51378934392
+    anomaly: true
+    based_on: 2017 Somalia
+  case_042:
+    lat: 14.979430162793118
+    lon: 55.98126049717888
+    area_km2: 9938.160563727279
+    anomaly: true
+    based_on: 2013 Socotra
+  case_043:
+    lat: 3.9081043270747884
+    lon: 56.265279179595666
+    area_km2: 14643.197959805924
+    anomaly: true
+    based_on: 2018 Somalia Phase 2
+  case_044:
+    lat: -4.955180836732837
+    lon: 128.73799439475923
+    area_km2: 45338.8371188417
+    anomaly: true
+    based_on: 2019 Banda
+  case_045:
+    lat: -8.527448980058985
+    lon: 108.18340968377521
+    area_km2: 59244.10255440704
+    anomaly: true
+    based_on: 2019 Java Phase 2
+  case_046:
+    lat: 7.933076216775559
+    lon: 58.93217200020692
+    area_km2: 4858.5959688325875
+    anomaly: true
+    based_on: 2021 Socotra
+  case_047:
+    lat: 4.778114840745603
+    lon: 48.80550221965166
+    area_km2: 29662.688938354837
+    anomaly: true
+    based_on: 2018 Somalia Phase 1
+  case_048:
+    lat: 3.8812043850778126
+    lon: 50.6170934314467
+    area_km2: 109307.26383948281
+    anomaly: true
+    based_on: 2019 Somalia
+  case_049:
+    lat: 10.482144576244334
+    lon: 53.39162249846775
+    area_km2: 7205.957534250242
+    anomaly: true
+    based_on: 2021 Socotra
+  case_050:
+    lat: 9.290888679797433
+    lon: 51.95327369660423
+    area_km2: 972.3120470444929
+    anomaly: true
+    based_on: 2015 Socotra Phase 1
+  case_051:
+    lat: -5.464229621451313
+    lon: 129.26517343523076
+    area_km2: 45125.33539973619
+    anomaly: true
+    based_on: 2019 Banda
+  case_052:
+    lat: 1.2505125414831966
+    lon: 51.73492774223087
+    area_km2: 70771.06966978013
+    anomaly: true
+    based_on: 2015 Somalia Phase 2
+  case_053:
+    lat: 9.93372034843899
+    lon: 53.779835096476326
+    area_km2: 10022.364781504788
+    anomaly: true
+    based_on: 2015 Socotra Phase 2
+  case_054:
+    lat: -9.826152297092586
+    lon: 109.50468867322628
+    area_km2: 102484.59901780986
+    anomaly: true
+    based_on: 2019 Java Phase 1
+  case_055:
+    lat: 2.675681993243343
+    lon: 54.441686803835836
+    area_km2: 10502.706210962306
+    anomaly: true
+    based_on: 2018 Somalia Phase 2
+  case_056:
+    lat: 1.466284358084394
+    lon: 52.11125547340554
+    area_km2: 47001.54044832711
+    anomaly: true
+    based_on: 2015 Somalia Phase 2
+  case_057:
+    lat: -6.1090300627692375
+    lon: 112.06274337421236
+    area_km2: 95446.38912664076
+    anomaly: true
+    based_on: 2019 Java Phase 1
+  case_058:
+    lat: 7.878132251057939
+    lon: 57.84390642911413
+    area_km2: 15033.092812805211
+    anomaly: true
+    based_on: 2018 Somalia Phase 2
+  case_059:
+    lat: 8.520679231503431
+    lon: 54.483026006038976
+    area_km2: 19713.764863625038
+    anomaly: true
+    based_on: 2021 Socotra/Somalia Ph2
+  case_060:
+    lat: 4.18271744658251
+    lon: 51.20941139637124
+    area_km2: 87635.45535847345
+    anomaly: true
+    based_on: 2019 Somalia
+test:
+  2019 Somalia:
+    lat: 2.0
+    lon: 50.0
+    area_km2: 100000
+    start_date: '2019-01-28'
+    anomaly: false
+  2019 Java Phase 1:
+    lat: -9.0
+    lon: 110.0
+    area_km2: 100000
+    start_date: '2019-07-25'
+    anomaly: false
+validation:
+  2019 Banda:
+    lat: -5.0
+    lon: 127.0
+    area_km2: 60000
+    start_date: '2019-07-26'
+    anomaly: false
+  2021 Socotra:
+    lat: 8.0
+    lon: 56.0
+    area_km2: 6000
+    start_date: '2021-02-07'
+    anomaly: false

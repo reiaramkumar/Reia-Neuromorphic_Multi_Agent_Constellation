@@ -1,0 +1,448 @@
+learning_rate:
+  3.0e-05:
+    2019_banda:
+      reward_per_step: -0.033416535070648894
+      mean_prediction_error_km: 75.9535169461308
+      num_predictions_made: 15
+      computation_time_sec: 76.975
+    2021_socotra:
+      reward_per_step: -0.03305443221961872
+      mean_prediction_error_km: 59.88475515450983
+      num_predictions_made: 17
+      computation_time_sec: 40.781
+  0.0001:
+    2019_banda:
+      reward_per_step: -0.031852858512041456
+      mean_prediction_error_km: 84.00104351007305
+      num_predictions_made: 27
+      computation_time_sec: 42.198
+    2021_socotra:
+      reward_per_step: -0.032425419311470305
+      mean_prediction_error_km: 86.72685667347803
+      num_predictions_made: 20
+      computation_time_sec: 41.939
+  0.0003:
+    2019_banda:
+      reward_per_step: -0.032917919706087546
+      mean_prediction_error_km: 73.46040617847063
+      num_predictions_made: 18
+      computation_time_sec: 42.177
+    2021_socotra:
+      reward_per_step: -0.033031869619757064
+      mean_prediction_error_km: 84.66084351419018
+      num_predictions_made: 15
+      computation_time_sec: 42.062
+  0.001:
+    2019_banda:
+      reward_per_step: -0.03211493609783548
+      mean_prediction_error_km: 76.47464298716586
+      num_predictions_made: 24
+      computation_time_sec: 43.451
+    2021_socotra:
+      reward_per_step: -0.03207658845784692
+      mean_prediction_error_km: 92.7177282659115
+      num_predictions_made: 24
+      computation_time_sec: 45.2
+  0.003:
+    2019_banda:
+      reward_per_step: -0.03265733919986005
+      mean_prediction_error_km: 85.14336505618404
+      num_predictions_made: 17
+      computation_time_sec: 45.689
+    2021_socotra:
+      reward_per_step: -0.032838746819093274
+      mean_prediction_error_km: 66.01072723216014
+      num_predictions_made: 15
+      computation_time_sec: 46.089
+target_tau:
+  0.001:
+    2019_banda:
+      reward_per_step: -0.031914188491387475
+      mean_prediction_error_km: 74.58935600471149
+      num_predictions_made: 27
+      computation_time_sec: 95.671
+    2021_socotra:
+      reward_per_step: -0.03208381713411113
+      mean_prediction_error_km: 87.86477547443498
+      num_predictions_made: 24
+      computation_time_sec: 46.472
+  0.005:
+    2019_banda:
+      reward_per_step: -0.031896545566204505
+      mean_prediction_error_km: 83.6280405301274
+      num_predictions_made: 28
+      computation_time_sec: 48.24
+    2021_socotra:
+      reward_per_step: -0.031156854780770266
+      mean_prediction_error_km: 81.65594714047859
+      num_predictions_made: 37
+      computation_time_sec: 47.437
+  0.01:
+    2019_banda:
+      reward_per_step: -0.03188554031188012
+      mean_prediction_error_km: 83.04485750935764
+      num_predictions_made: 28
+      computation_time_sec: 51.296
+    2021_socotra:
+      reward_per_step: -0.03187035046474731
+      mean_prediction_error_km: 80.8040488508682
+      num_predictions_made: 29
+      computation_time_sec: 47.505
+  0.02:
+    2019_banda:
+      reward_per_step: -0.03220183526217523
+      mean_prediction_error_km: 99.00690645342738
+      num_predictions_made: 26
+      computation_time_sec: 47.955
+    2021_socotra:
+      reward_per_step: -0.03264369360580867
+      mean_prediction_error_km: 62.35131134338366
+      num_predictions_made: 20
+      computation_time_sec: 37.674
+  0.05:
+    2019_banda:
+      reward_per_step: -0.032900874178847975
+      mean_prediction_error_km: 72.60734727140598
+      num_predictions_made: 19
+      computation_time_sec: 13.152
+    2021_socotra:
+      reward_per_step: -0.03325684093025132
+      mean_prediction_error_km: 79.2968569347647
+      num_predictions_made: 12
+      computation_time_sec: 13.395
+  0.1:
+    2019_banda:
+      reward_per_step: -0.032273030562619494
+      mean_prediction_error_km: 92.61401713052159
+      num_predictions_made: 25
+      computation_time_sec: 13.385
+    2021_socotra:
+      reward_per_step: -0.03314460345155869
+      mean_prediction_error_km: 66.90922984514299
+      num_predictions_made: 27
+      computation_time_sec: 13.628
+  0.2:
+    2019_banda:
+      reward_per_step: -0.03243394597000182
+      mean_prediction_error_km: 73.71938170809484
+      num_predictions_made: 25
+      computation_time_sec: 21.183
+    2021_socotra:
+      reward_per_step: -0.03360139407674539
+      mean_prediction_error_km: 72.8925795029594
+      num_predictions_made: 22
+      computation_time_sec: 24.104
+  0.3:
+    2019_banda:
+      reward_per_step: -0.033230983072210576
+      mean_prediction_error_km: 78.12518608896166
+      num_predictions_made: 23
+      computation_time_sec: 42.613
+    2021_socotra:
+      reward_per_step: -0.033109810753742704
+      mean_prediction_error_km: 78.20298199956507
+      num_predictions_made: 23
+      computation_time_sec: 47.033
+  0.5:
+    2019_banda:
+      reward_per_step: -0.0338669316557072
+      mean_prediction_error_km: 87.53394437399558
+      num_predictions_made: 22
+      computation_time_sec: 45.717
+    2021_socotra:
+      reward_per_step: -0.032685952576877605
+      mean_prediction_error_km: 76.64519371605019
+      num_predictions_made: 22
+      computation_time_sec: 47.378
+  1.0:
+    2019_banda:
+      reward_per_step: -0.03301141971235024
+      mean_prediction_error_km: 94.05973258082862
+      num_predictions_made: 22
+      computation_time_sec: 24.971
+    2021_socotra:
+      reward_per_step: -0.03336416121774904
+      mean_prediction_error_km: 68.14483882394478
+      num_predictions_made: 27
+      computation_time_sec: 13.963
+alpha:
+  0.05:
+    2019_banda:
+      reward_per_step: -0.03189028167269294
+      mean_prediction_error_km: 86.12353963009664
+      num_predictions_made: 31
+      computation_time_sec: 14.34
+    2021_socotra:
+      reward_per_step: -0.031814582143410056
+      mean_prediction_error_km: 78.37847438298196
+      num_predictions_made: 30
+      computation_time_sec: 79.394
+  0.1:
+    2019_banda:
+      reward_per_step: -0.03286893049595635
+      mean_prediction_error_km: 95.9340361243755
+      num_predictions_made: 16
+      computation_time_sec: 38.055
+    2021_socotra:
+      reward_per_step: -0.032146130638257414
+      mean_prediction_error_km: 82.08273705051853
+      num_predictions_made: 25
+      computation_time_sec: 42.847
+  0.2:
+    2019_banda:
+      reward_per_step: -0.03205689215907584
+      mean_prediction_error_km: 86.62792558347792
+      num_predictions_made: 26
+      computation_time_sec: 43.647
+    2021_socotra:
+      reward_per_step: -0.032157130528982995
+      mean_prediction_error_km: 76.39031031241042
+      num_predictions_made: 24
+      computation_time_sec: 43.891
+  0.3:
+    2019_banda:
+      reward_per_step: -0.03237845332266899
+      mean_prediction_error_km: 72.92445473136975
+      num_predictions_made: 23
+      computation_time_sec: 43.444
+    2021_socotra:
+      reward_per_step: -0.03174553716279289
+      mean_prediction_error_km: 88.03378602116267
+      num_predictions_made: 27
+      computation_time_sec: 42.908
+  0.4:
+    2019_banda:
+      reward_per_step: -0.03312746789681517
+      mean_prediction_error_km: 77.03280544280354
+      num_predictions_made: 16
+      computation_time_sec: 42.4
+    2021_socotra:
+      reward_per_step: -0.032294079125470776
+      mean_prediction_error_km: 94.34345766024653
+      num_predictions_made: 23
+      computation_time_sec: 43.387
+gamma:
+  0.9:
+    2019_banda:
+      reward_per_step: -0.032328923700541176
+      mean_prediction_error_km: 89.09315591498137
+      num_predictions_made: 21
+      computation_time_sec: 67.077
+    2021_socotra:
+      reward_per_step: -0.03243574077065136
+      mean_prediction_error_km: 84.50508445320996
+      num_predictions_made: 20
+      computation_time_sec: 54.268
+  0.95:
+    2019_banda:
+      reward_per_step: -0.03129100433930201
+      mean_prediction_error_km: 90.22734724671633
+      num_predictions_made: 37
+      computation_time_sec: 44.706
+    2021_socotra:
+      reward_per_step: -0.0321252075527553
+      mean_prediction_error_km: 77.52595048369311
+      num_predictions_made: 24
+      computation_time_sec: 43.947
+  0.99:
+    2019_banda:
+      reward_per_step: -0.03231234944287548
+      mean_prediction_error_km: 103.4917432114176
+      num_predictions_made: 23
+      computation_time_sec: 45.362
+    2021_socotra:
+      reward_per_step: -0.03200734179139274
+      mean_prediction_error_km: 68.58830203021928
+      num_predictions_made: 25
+      computation_time_sec: 43.358
+  0.995:
+    2019_banda:
+      reward_per_step: -0.03210074772467594
+      mean_prediction_error_km: 99.80573282849987
+      num_predictions_made: 25
+      computation_time_sec: 43.093
+    2021_socotra:
+      reward_per_step: -0.03229260183176611
+      mean_prediction_error_km: 70.7095406956388
+      num_predictions_made: 22
+      computation_time_sec: 43.638
+  0.999:
+    2019_banda:
+      reward_per_step: -0.032057117435658616
+      mean_prediction_error_km: 93.8170046143397
+      num_predictions_made: 26
+      computation_time_sec: 45.655
+    2021_socotra:
+      reward_per_step: -0.03229173700247579
+      mean_prediction_error_km: 88.24639020283927
+      num_predictions_made: 23
+      computation_time_sec: 43.298
+fuel_weight:
+  0.1:
+    2019_banda:
+      reward_per_step: -0.005027837262982589
+      mean_prediction_error_km: 80.08930720794058
+      num_predictions_made: 21
+      computation_time_sec: 43.382
+    2021_socotra:
+      reward_per_step: -0.003997559856582452
+      mean_prediction_error_km: 87.7964105849473
+      num_predictions_made: 31
+      computation_time_sec: 79.39
+  0.3:
+    2019_banda:
+      reward_per_step: -0.018653213574844237
+      mean_prediction_error_km: 85.69277942263626
+      num_predictions_made: 22
+      computation_time_sec: 42.286
+    2021_socotra:
+      reward_per_step: -0.017657171601938363
+      mean_prediction_error_km: 73.46462541004448
+      num_predictions_made: 32
+      computation_time_sec: 45.022
+  0.5:
+    2019_banda:
+      reward_per_step: -0.032231787525902125
+      mean_prediction_error_km: 91.82725529956986
+      num_predictions_made: 24
+      computation_time_sec: 44.064
+    2021_socotra:
+      reward_per_step: -0.03199501869760245
+      mean_prediction_error_km: 82.82319815489576
+      num_predictions_made: 26
+      computation_time_sec: 44.044
+  0.7:
+    2019_banda:
+      reward_per_step: -0.04674072228432459
+      mean_prediction_error_km: 79.93559794031928
+      num_predictions_made: 18
+      computation_time_sec: 42.023
+    2021_socotra:
+      reward_per_step: -0.04632951426957905
+      mean_prediction_error_km: 70.94066423500155
+      num_predictions_made: 19
+      computation_time_sec: 42.255
+  1.0:
+    2019_banda:
+      reward_per_step: -0.06630128934125724
+      mean_prediction_error_km: 72.6054813703271
+      num_predictions_made: 29
+      computation_time_sec: 46.214
+    2021_socotra:
+      reward_per_step: -0.06689149408730576
+      mean_prediction_error_km: 73.39270530318437
+      num_predictions_made: 21
+      computation_time_sec: 42.018
+activation_function:
+  relu:
+    2019_banda:
+      reward_per_step: -0.03272154287262647
+      mean_prediction_error_km: 64.9767320812736
+      num_predictions_made: 19
+      computation_time_sec: 76.817
+    2021_socotra:
+      reward_per_step: -0.03269836198245347
+      mean_prediction_error_km: 63.492046926651206
+      num_predictions_made: 18
+      computation_time_sec: 41.214
+  tanh:
+    2019_banda:
+      reward_per_step: -0.03146516003033696
+      mean_prediction_error_km: 75.53338509669928
+      num_predictions_made: 28
+      computation_time_sec: 34.787
+    2021_socotra:
+      reward_per_step: -0.032634482845853734
+      mean_prediction_error_km: 86.40165097414645
+      num_predictions_made: 16
+      computation_time_sec: 13.444
+  leaky_relu:
+    2019_banda:
+      reward_per_step: -0.03258649840127434
+      mean_prediction_error_km: 78.45692494007726
+      num_predictions_made: 20
+      computation_time_sec: 13.501
+    2021_socotra:
+      reward_per_step: -0.03254767578125378
+      mean_prediction_error_km: 68.79591508467566
+      num_predictions_made: 19
+      computation_time_sec: 30.708
+num_agents:
+  1:
+    2019_banda:
+      reward_per_step: -0.048025347164452614
+      mean_prediction_error_km: 83.07213659379593
+      num_predictions_made: 16
+      computation_time_sec: 16.924
+    2021_socotra:
+      reward_per_step: -0.04721055675435948
+      mean_prediction_error_km: 70.56077927276009
+      num_predictions_made: 17
+      computation_time_sec: 13.721
+  2:
+    2019_banda:
+      reward_per_step: -0.032760660604194344
+      mean_prediction_error_km: 65.21653529986843
+      num_predictions_made: 19
+      computation_time_sec: 42.686
+    2021_socotra:
+      reward_per_step: -0.03103632403425526
+      mean_prediction_error_km: 77.60368072294885
+      num_predictions_made: 36
+      computation_time_sec: 50.284
+  3:
+    2019_banda:
+      reward_per_step: -0.025626800062686743
+      mean_prediction_error_km: 85.90000446559829
+      num_predictions_made: 26
+      computation_time_sec: 53.227
+    2021_socotra:
+      reward_per_step: -0.024783532495472438
+      mean_prediction_error_km: 62.80327685973397
+      num_predictions_made: 33
+      computation_time_sec: 46.89
+  4:
+    2019_banda:
+      reward_per_step: -0.020603242873761758
+      mean_prediction_error_km: 91.91794027590623
+      num_predictions_made: 39
+      computation_time_sec: 59.902
+    2021_socotra:
+      reward_per_step: -0.021543326120978836
+      mean_prediction_error_km: 79.57977651487073
+      num_predictions_made: 29
+      computation_time_sec: 62.22
+optimizer:
+  adam:
+    2019_banda:
+      reward_per_step: -0.03215396147937064
+      mean_prediction_error_km: 80.39199169927943
+      num_predictions_made: 25
+      computation_time_sec: 46.639
+    2021_socotra:
+      reward_per_step: -0.032159526198714344
+      mean_prediction_error_km: 68.28663196217005
+      num_predictions_made: 24
+      computation_time_sec: 33.531
+  sgd:
+    2019_banda:
+      reward_per_step: -0.032332388066333116
+      mean_prediction_error_km: 72.95010698491012
+      num_predictions_made: 24
+      computation_time_sec: 18.62
+    2021_socotra:
+      reward_per_step: -0.03260163841924319
+      mean_prediction_error_km: 60.07730682696433
+      num_predictions_made: 19
+      computation_time_sec: 38.292
+  rmsprop:
+    2019_banda:
+      reward_per_step: -0.032426664076779986
+      mean_prediction_error_km: 70.98766813018435
+      num_predictions_made: 21
+      computation_time_sec: 40.396
+    2021_socotra:
+      reward_per_step: -0.03263785434550501
+      mean_prediction_error_km: 73.40203610913748
+      num_predictions_made: 19
+      computation_time_sec: 43.892

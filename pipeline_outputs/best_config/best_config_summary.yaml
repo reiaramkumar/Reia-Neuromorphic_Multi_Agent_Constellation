@@ -1,0 +1,181 @@
+best_config:
+  snn_kwargs:
+    v_threshold: 1.0
+    tau: 1.5
+    weight_scale: 4.0
+  sac_kwargs:
+    lr: 0.001
+    gamma: 0.95
+    tau: 0.005
+    alpha: 0.05
+  fuel_weight: 0.1
+  unfolded_parameters:
+  - '[PARAM EXCLUDED] network_depth best value was ''3-layer (baseline), varies arch
+    so nah :('
+  - '[PARAM EXCLUDED] surrogate_function best value was ''atan, varies arch so nah
+    :('
+  - '[PARAM EXCLUDED] optimizer best value was ''sgd, varies arch so nah :('
+  - '[PARAM EXCLUDED] dropout_rate best value was ''0.0, varies arch so nah :('
+  - '[PARAM EXCLUDED] activation_function best value was ''tanh , varies arch so nah
+    :('
+  - '[PARAM EXCLUDED] optimizer best value was ''adam , varies arch so nah :('
+  - '[PARAM EXCLUDED] num_agents best value was ''4 , varies arch so nah :('
+base_config:
+  snn_kwargs:
+    v_threshold: 0.3
+    tau: 1.5
+    weight_scale: 2.0
+  sac_kwargs:
+    lr: 0.0003
+    gamma: 0.99
+    tau: 0.005
+    alpha: 0.2
+  fuel_weight: 0.5
+snn_best_raw_selection:
+  v_threshold:
+    value: 1.0
+    mean_reward_per_step: -0.035488883040379705
+  weight_scale:
+    value: 4.0
+    mean_reward_per_step: -0.0358389106112601
+  tau:
+    value: 1.5
+    mean_reward_per_step: -0.03613750429785187
+  learning_rate:
+    value: 0.001
+    mean_reward_per_step: -0.03572077571558851
+  surrogate_function:
+    value: atan
+    mean_reward_per_step: -0.03587256418644552
+  network_depth:
+    value: 3-layer (baseline)
+    mean_reward_per_step: -0.03651848501676726
+  optimizer:
+    value: sgd
+    mean_reward_per_step: -0.03637136445956356
+  dropout_rate:
+    value: 0.0
+    mean_reward_per_step: -0.0358512272946407
+sac_best_raw_selection:
+  learning_rate:
+    value: 0.001
+    mean_reward_per_step: -0.0320957622778412
+  target_tau:
+    value: 0.005
+    mean_reward_per_step: -0.03152670017348738
+  alpha:
+    value: 0.05
+    mean_reward_per_step: -0.031852431908051496
+  gamma:
+    value: 0.95
+    mean_reward_per_step: -0.03170810594602866
+  fuel_weight:
+    value: 0.1
+    mean_reward_per_step: -0.004512698559782521
+  activation_function:
+    value: tanh
+    mean_reward_per_step: -0.032049821438095344
+  num_agents:
+    value: 4
+    mean_reward_per_step: -0.021073284497370295
+  optimizer:
+    value: adam
+    mean_reward_per_step: -0.03215674383904249
+stage4_validation:
+  base:
+    per_case:
+      2019 Banda:
+        total_reward: -34.46194590164813
+        reward_per_step: -0.03190920916819271
+        num_steps: 1080
+        mean_prediction_error_km: 88.94066003488643
+        num_predictions_made: 19
+        final_true_area_km2: 0.028661989179643646
+        num_satellites: 2
+        visible_steps_A: 8
+        visible_steps_B: 11
+      2021 Socotra:
+        total_reward: -33.897823020722704
+        reward_per_step: -0.031386873167335835
+        num_steps: 1080
+        mean_prediction_error_km: 83.5922442153513
+        num_predictions_made: 24
+        final_true_area_km2: 0.002874987650495234
+        num_satellites: 2
+        visible_steps_A: 13
+        visible_steps_B: 11
+    mean_reward_per_step: -0.031648041167764276
+  best:
+    per_case:
+      2019 Banda:
+        total_reward: -5.697423858079129
+        reward_per_step: -0.005275392461184379
+        num_steps: 1080
+        mean_prediction_error_km: 86.6198616087472
+        num_predictions_made: 16
+        final_true_area_km2: 0.028661989179643646
+        num_satellites: 2
+        visible_steps_A: 4
+        visible_steps_B: 12
+      2021 Socotra:
+        total_reward: -5.601387775747571
+        reward_per_step: -0.005186470162729232
+        num_steps: 1080
+        mean_prediction_error_km: 76.47385445079074
+        num_predictions_made: 19
+        final_true_area_km2: 0.002874987650495234
+        num_satellites: 2
+        visible_steps_A: 12
+        visible_steps_B: 7
+    mean_reward_per_step: -0.005230931311956805
+  best_outperforms_base: true
+stage5_final_test:
+  base:
+    per_case:
+      2019 Somalia:
+        total_reward: -32.86079389322547
+        reward_per_step: -0.030426661012245806
+        num_steps: 1080
+        mean_prediction_error_km: 125.52473857361079
+        num_predictions_made: 31
+        final_true_area_km2: 0.0475662526509487
+        num_satellites: 2
+        visible_steps_A: 15
+        visible_steps_B: 16
+      2019 Java Phase 1:
+        total_reward: -34.21720987530424
+        reward_per_step: -0.03168260173639282
+        num_steps: 1080
+        mean_prediction_error_km: 109.37193360242895
+        num_predictions_made: 22
+        final_true_area_km2: 0.047823908627040675
+        num_satellites: 2
+        visible_steps_A: 7
+        visible_steps_B: 15
+    mean_reward_per_step: -0.03105463137431931
+  best:
+    per_case:
+      2019 Somalia:
+        total_reward: -5.710268938797529
+        reward_per_step: -0.005287286054442156
+        num_steps: 1080
+        mean_prediction_error_km: 123.73480174931201
+        num_predictions_made: 15
+        final_true_area_km2: 0.0475662526509487
+        num_satellites: 2
+        visible_steps_A: 8
+        visible_steps_B: 7
+      2019 Java Phase 1:
+        total_reward: -4.125451914907897
+        reward_per_step: -0.0038198628841739786
+        num_steps: 1080
+        mean_prediction_error_km: 130.6463903327678
+        num_predictions_made: 30
+        final_true_area_km2: 0.047823908627040675
+        num_satellites: 2
+        visible_steps_A: 18
+        visible_steps_B: 12
+    mean_reward_per_step: -0.004553574469308068
+  best_outperforms_base: true
+limitation_note: Best-config values were selected via one-at-a-time (OAT) sensitivity
+  sweeps -- interaction effects between parameters are not captured.
