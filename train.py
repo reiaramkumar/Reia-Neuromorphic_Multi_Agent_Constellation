@@ -165,7 +165,7 @@ def run_case(case_lat, case_lon, case_date, area_km2, snn, encoder, trainer, buf
 
         imap.evaporate()
         is_visible_any = any(visibility[name] for name in names)
-        reward = compute_reward(true_state, true_state, np.mean(actions_list, axis=0), is_visible_any,
+        reward = compute_reward(predicted_state, true_state, np.mean(actions_list, axis=0), is_visible_any,
                                 fuel_weight=fuel_weight, visibility_bonus=visibility_bonus,
                                 state_scale=STATE_SCALE)
         reward += env.collision_penalty()

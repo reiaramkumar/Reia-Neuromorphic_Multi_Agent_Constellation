@@ -340,7 +340,7 @@ def run_case_instrumented(case_lat, case_lon, case_date, area_km2, snn, encoder,
 
         imap.evaporate()
         is_visible_any = any(visibility[n] for n in ("A", "B"))
-        reward = compute_reward(true_state, true_state, action.squeeze(0).numpy(), is_visible_any, state_scale= STATE_SCALE)
+        reward = compute_reward(predicted_state, true_state, action.squeeze(0).numpy(), is_visible_any, state_scale= STATE_SCALE)
         rewards.append(reward)
 
         with torch.no_grad():
